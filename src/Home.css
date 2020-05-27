@@ -105,19 +105,70 @@ svg a {
 
 @media (prefers-reduced-motion: no-preference) {
   .Home-circle {
-    animation-name: Home-float-circle;
-    animation-direction: alternate;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
+    animation:
+      Home-float-circle
+      10s
+      steps(250)
+      infinite;
   }
 }
 
+#circle1 { animation-delay: -5s; }
+#circle2 { animation-delay: -2s; }
+#circle3 { animation-delay: -1s; }
+#circle4 { animation-delay: -3s; }
+#circle5 { animation-delay: -4s; }
+#circle6 { animation-delay: -5s; }
+#circle7 { animation-delay: -.5s; }
+
+
 @keyframes Home-float-circle {
   0% {
-    transform: translatey(0px);
+    transform:
+      translate(0, 0);
+  }
+  10% {
+    transform:
+      translate(-1%, -1%);
+  }
+  20% {
+    transform:
+      translate(0, -.5%);
+  }
+  30% {
+    transform:
+      translate(-.5%, .5%);
+  }
+  40% {
+    transform:
+      translate(0, 1.5%);
+  }
+  50% {
+    transform:
+      translate(1%, 1%);
+  }
+  60% {
+    transform:
+      translate(1.5%, 1%);
+  }
+  70% {
+    transform:
+      translate(.5%, 0);
+  }
+  70% {
+    transform:
+      translate(-.5%, -.5%);
+  }
+  80% {
+    transform:
+      translate(-1%, -1.5%);
+  }
+  90% {
+    transform:
+      translate(-1.5%, 0);
   }
   100% {
-    transform: translatey(-0.5vh);
+    transform:
+      translate(0, 0);
   }
 }
