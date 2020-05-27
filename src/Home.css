@@ -5,22 +5,63 @@ svg a {
 }
 
 .Home {
-  width: max(100vmin, 75vw);
   margin: auto;
-  min-height: 100vh;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: start;
+  height: 100vh;
+  width: 100vw;
 
   color: #b0a596;
+
+  font-size: 12pt;
+
+  display: grid;
+  grid-template-areas:
+    "header"
+    "board"
+    "footer"
+    "email";
+}
+
+.Home-footer p {
+  max-width: 100%;
+  margin: 0 3vmin;
+}
+
+@media only screen and (min-width: 768px) {
+  .Home-footer p {
+    max-width: 50%;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .Home {
+    width: 90vw;
+
+    grid-template-columns: auto 5vmin;
+    grid-template-areas:
+      "header header"
+      "board email"
+      "footer email";
+  }
+
+  .Home-email {
+    width: 3vmin;
+    padding-right: 3vmin;
+    overflow: hidden;
+  }
+
+  .Home-email a {
+    transform: rotate(90deg);
+    transform-origin: bottom left;
+  }
 }
 
 .Home-logo-header {
+  grid-area: header;
+
   /* To get the header to take expected height */
   height: 15vmin;
   font-size: 0;
+  margin: 0 auto;
   margin-top: 5vmin;
 }
 
@@ -28,39 +69,30 @@ svg a {
   height: 100%;
 }
 
-.Home-footer-text {
-  height: 12vmin;
+.Home-footer {
+  grid-area: footer;
+
   text-align: left;
   width: 100%;
   line-height: 3ex;
   padding-top: 3vmin;
 }
 
-.Home-footer-text p {
-  max-width: max(50vmax, 50%);
-  margin: 1vmin;
-}
+.Home-board {
+  grid-area: board;
 
-.Home-main {
   display: flex;
   flex-direction: row;
   width: 100%;
 }
 
-.Home-board {
-  max-height: calc(100vmin - 15vmin - 5vmin - 12vmin);
-}
-
 .Home-email {
-  width: 3vmin;
-  padding-right: 3vmin;
+  grid-area: email;
+  text-align: center;
 }
 
 .Home-email a {
   display: inline-block;
-  transform: rotate(90deg);
-  transform-origin: bottom left;
-
   text-decoration: none;
   color: #b0a596;
 }
