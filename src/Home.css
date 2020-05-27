@@ -21,17 +21,6 @@ svg a {
     "email";
 }
 
-.Home-footer p {
-  max-width: 100%;
-  margin: 0 3vmin;
-}
-
-@media only screen and (min-width: 768px) {
-  .Home-footer p {
-    max-width: 50%;
-  }
-}
-
 @media only screen and (min-width: 600px) {
   .Home {
     width: 90vw;
@@ -42,17 +31,11 @@ svg a {
       "board email"
       "footer email";
   }
+}
 
-  .Home-email {
-    width: 3vmin;
-    padding-right: 3vmin;
-    overflow: hidden;
-  }
-
-  .Home-email a {
-    transform: rotate(90deg);
-    transform-origin: bottom left;
-  }
+.Home-footer p {
+  max-width: 100%;
+  margin: 0 3vmin;
 }
 
 .Home-logo-header {
@@ -75,7 +58,13 @@ svg a {
   text-align: left;
   width: 100%;
   line-height: 3ex;
-  padding-top: 3vmin;
+  padding: 3vmin 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .Home-footer p {
+    max-width: 50%;
+  }
 }
 
 .Home-board {
@@ -97,6 +86,19 @@ svg a {
   color: #b0a596;
 }
 
+@media only screen and (min-width: 600px) {
+  .Home-email {
+    width: 3vmin;
+    padding-right: 3vmin;
+    overflow: hidden;
+  }
+
+  .Home-email a {
+    transform: rotate(90deg);
+    transform-origin: bottom left;
+  }
+}
+
 .Home-circle:hover {
   fill-opacity: 0.75;
 }
@@ -105,7 +107,7 @@ svg a {
   .Home-circle {
     animation-name: Home-float-circle;
     animation-direction: alternate;
-    animation-duration: 1s;
+    animation-duration: 2s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
   }
@@ -116,6 +118,6 @@ svg a {
     transform: translatey(0px);
   }
   100% {
-    transform: translatey(-0.25vmin);
+    transform: translatey(-0.5vh);
   }
 }
