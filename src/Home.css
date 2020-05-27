@@ -5,36 +5,68 @@ svg a {
 }
 
 .Home {
-  text-align: center;
+  width: max(100vmin, 75vw);
+  margin: auto;
+  min-height: 100vh;
+
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
   align-items: center;
-  justify-content: center;
-  
-  font-size: calc(10px + 2vmin);
+  justify-content: start;
+
   color: #b0a596;
 }
 
 .Home-logo-header {
   /* To get the header to take expected height */
-  width: 100%;
   height: 15vmin;
-  margin-bottom: 5vmin;
   font-size: 0;
+  margin-top: 5vmin;
 }
 
 .Home-logo {
   height: 100%;
 }
 
-.Home-svg {
-  width: 100vmin;
-  max-height: calc(100vh - 20vmin);
+.Home-footer-text {
+  height: 12vmin;
+  text-align: left;
+  width: 100%;
+  line-height: 3ex;
+  padding-top: 3vmin;
+}
+
+.Home-footer-text p {
+  max-width: max(50vmax, 50%);
+  margin: 1vmin;
+}
+
+.Home-main {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.Home-board {
+  max-height: calc(100vmin - 15vmin - 5vmin - 12vmin);
+}
+
+.Home-email {
+  width: 3vmin;
+  padding-right: 3vmin;
+}
+
+.Home-email a {
+  display: inline-block;
+  transform: rotate(90deg);
+  transform-origin: bottom left;
+
+  text-decoration: none;
+  color: #b0a596;
 }
 
 .Home-circle:hover {
-  filter: drop-shadow(0px 1px .5px rgba(0, 0, 0, .2));
+  fill-opacity: 0.75;
 }
 
 @media (prefers-reduced-motion: no-preference) {
