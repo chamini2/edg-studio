@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './logo.png';
+import logo from './assets/logo.png';
 import './Home.css';
 
 const EMAIL = "elay@edgstudio.com";
@@ -34,7 +34,8 @@ function Home() {
         <a href="/6">
           <circle id="circle6" fill="#b1bca9" className="Home-circle" cx="150" cy="45" r="4" />
         </a>
-        <a href="#">
+        {/* eslint-disable-next-line */}
+        <a>
           <circle id="circle7" fill="#d3bdba" className="Home-circle" cx="175" cy="30" r="6" />
         </a>
       </svg>
