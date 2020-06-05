@@ -5,25 +5,24 @@ import {
   Route
 } from "react-router-dom";
 import Home from './Home';
-import Circle1 from './Circle1';
+import Cluster1 from './Cluster1';
+import Cluster2 from './Cluster2';
+import Cluster3 from './Cluster3';
+import Cluster4 from './Cluster4';
+import Cluster5 from './Cluster5';
+import Cluster6 from './Cluster6';
 
 function App() {
   return (
     <Router>
-      {/*
-        A <Switch> looks through all its children <Route>
-        elements and renders the first one whose path
-        matches the current URL. Use a <Switch> any time
-        you have multiple routes, but you want only one
-        of them to render at a time
-      */}
       <Switch>
-        <Route exact path="/">
-          <Home />
-        </Route>
-        <Route exact path="/1">
-          <Circle1 />
-        </Route>
+        <Route exact path="/"> <Home /> </Route>
+        <Route exact path="/1"> <Cluster1 /> </Route>
+        <Route exact path="/2"> <Cluster2 /> </Route>
+        <Route exact path="/3"> <Cluster3 /> </Route>
+        <Route exact path="/4"> <Cluster4 /> </Route>
+        <Route exact path="/5"> <Cluster5 /> </Route>
+        <Route exact path="/6"> <Cluster6 /> </Route>
       </Switch>
     </Router>
   );
