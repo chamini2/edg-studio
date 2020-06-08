@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "04487d18e47aefbe89fdc25bb608208f",
+    "revision": "5833e9e6eb9527fa6131d2bc09feb621",
     "url": "/edg-studio/index.html"
   },
   {
-    "revision": "121ab73ac54976718f70",
+    "revision": "f69bfaba931c453a575f",
     "url": "/edg-studio/static/css/main.d539a0b4.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/edg-studio/static/js/2.b82637ad.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "121ab73ac54976718f70",
-    "url": "/edg-studio/static/js/main.6ebb1b37.chunk.js"
+    "revision": "f69bfaba931c453a575f",
+    "url": "/edg-studio/static/js/main.7aa642ba.chunk.js"
   },
   {
     "revision": "5f66d7e54ab99fa0a7d3",
