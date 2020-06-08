@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/edg-studio/static/css/main.be8eb2c0.chunk.css",
-    "main.js": "/edg-studio/static/js/main.3588e4fe.chunk.js",
-    "main.js.map": "/edg-studio/static/js/main.3588e4fe.chunk.js.map",
+    "main.css": "/edg-studio/static/css/main.da1fccdf.chunk.css",
+    "main.js": "/edg-studio/static/js/main.50a86448.chunk.js",
+    "main.js.map": "/edg-studio/static/js/main.50a86448.chunk.js.map",
     "runtime-main.js": "/edg-studio/static/js/runtime-main.d55105c6.js",
     "runtime-main.js.map": "/edg-studio/static/js/runtime-main.d55105c6.js.map",
     "static/js/2.b82637ad.chunk.js": "/edg-studio/static/js/2.b82637ad.chunk.js",
     "static/js/2.b82637ad.chunk.js.map": "/edg-studio/static/js/2.b82637ad.chunk.js.map",
     "index.html": "/edg-studio/index.html",
-    "precache-manifest.3e5cd34890d6e12be8dac07216616242.js": "/edg-studio/precache-manifest.3e5cd34890d6e12be8dac07216616242.js",
+    "precache-manifest.27b7c094d80f2f12e60690838c4d9ef9.js": "/edg-studio/precache-manifest.27b7c094d80f2f12e60690838c4d9ef9.js",
     "service-worker.js": "/edg-studio/service-worker.js",
-    "static/css/main.be8eb2c0.chunk.css.map": "/edg-studio/static/css/main.be8eb2c0.chunk.css.map",
+    "static/css/main.da1fccdf.chunk.css.map": "/edg-studio/static/css/main.da1fccdf.chunk.css.map",
     "static/js/2.b82637ad.chunk.js.LICENSE.txt": "/edg-studio/static/js/2.b82637ad.chunk.js.LICENSE.txt",
     "static/media/index.css": "/edg-studio/static/media/Plau-Tenez-Regular.6e115fe4.otf",
     "static/media/art_basel.jpg": "/edg-studio/static/media/art_basel.7a95d7d6.jpg",
@@ -40,7 +40,7 @@
   "entrypoints": [
     "static/js/runtime-main.d55105c6.js",
     "static/js/2.b82637ad.chunk.js",
-    "static/css/main.be8eb2c0.chunk.css",
-    "static/js/main.3588e4fe.chunk.js"
+    "static/css/main.da1fccdf.chunk.css",
+    "static/js/main.50a86448.chunk.js"
   ]
 }
