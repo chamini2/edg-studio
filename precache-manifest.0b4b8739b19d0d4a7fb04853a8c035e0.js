@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "54f98604edd6efe89b0293c86322b867",
+    "revision": "6461b78e1b3459a604686fc28f080a33",
     "url": "/edg-studio/index.html"
   },
   {
-    "revision": "0e6826eeb6f2043e6b20",
-    "url": "/edg-studio/static/css/main.da1fccdf.chunk.css"
+    "revision": "5513a6a9d33e68813414",
+    "url": "/edg-studio/static/css/main.5bc8ef56.chunk.css"
   },
   {
-    "revision": "7aacaf67fcb66476dc10",
-    "url": "/edg-studio/static/js/2.b82637ad.chunk.js"
+    "revision": "43f0cd353f8661eb7099",
+    "url": "/edg-studio/static/js/2.82d0c1a8.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/edg-studio/static/js/2.b82637ad.chunk.js.LICENSE.txt"
+    "url": "/edg-studio/static/js/2.82d0c1a8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0e6826eeb6f2043e6b20",
-    "url": "/edg-studio/static/js/main.38ccff8f.chunk.js"
+    "revision": "5513a6a9d33e68813414",
+    "url": "/edg-studio/static/js/main.b077034b.chunk.js"
   },
   {
     "revision": "5f66d7e54ab99fa0a7d3",
