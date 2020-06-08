@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "./static/css/main.4367b334.chunk.css",
-    "main.js": "./static/js/main.def7e27f.chunk.js",
-    "main.js.map": "./static/js/main.def7e27f.chunk.js.map",
+    "main.js": "./static/js/main.2f042621.chunk.js",
+    "main.js.map": "./static/js/main.2f042621.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.8ab2745d.js",
     "runtime-main.js.map": "./static/js/runtime-main.8ab2745d.js.map",
-    "static/js/2.b82637ad.chunk.js": "./static/js/2.b82637ad.chunk.js",
-    "static/js/2.b82637ad.chunk.js.map": "./static/js/2.b82637ad.chunk.js.map",
+    "static/js/2.7fdf1b81.chunk.js": "./static/js/2.7fdf1b81.chunk.js",
+    "static/js/2.7fdf1b81.chunk.js.map": "./static/js/2.7fdf1b81.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.68925dc79a023c4f40a83a76a52b27d5.js": "./precache-manifest.68925dc79a023c4f40a83a76a52b27d5.js",
+    "precache-manifest.a9b705b740780fb408b27ac3d149e25f.js": "./precache-manifest.a9b705b740780fb408b27ac3d149e25f.js",
     "service-worker.js": "./service-worker.js",
     "static/css/main.4367b334.chunk.css.map": "./static/css/main.4367b334.chunk.css.map",
-    "static/js/2.b82637ad.chunk.js.LICENSE.txt": "./static/js/2.b82637ad.chunk.js.LICENSE.txt",
+    "static/js/2.7fdf1b81.chunk.js.LICENSE.txt": "./static/js/2.7fdf1b81.chunk.js.LICENSE.txt",
     "static/media/index.css": "./static/media/Plau-Tenez-Regular.6e115fe4.otf",
     "static/media/art_basel.jpg": "./static/media/art_basel.7a95d7d6.jpg",
     "static/media/boy_smells.webp": "./static/media/boy_smells.811222d3.webp",
@@ -39,8 +39,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.8ab2745d.js",
-    "static/js/2.b82637ad.chunk.js",
+    "static/js/2.7fdf1b81.chunk.js",
     "static/css/main.4367b334.chunk.css",
-    "static/js/main.def7e27f.chunk.js"
+    "static/js/main.2f042621.chunk.js"
   ]
 }
