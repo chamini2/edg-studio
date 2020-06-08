@@ -101,14 +101,12 @@ svg a {
   fill-opacity: 0.75;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .Home-circle {
-    animation:
-      Home-float-circle
-      10s
-      steps(250)
-      infinite;
-  }
+.Home-circle {
+  animation:
+    Home-float-circle
+    10s
+    steps(250)
+    infinite;
 }
 
 #circle1 { animation-delay: -5s; }
