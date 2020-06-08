@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/edg-studio/static/css/main.5bc8ef56.chunk.css",
-    "main.js": "/edg-studio/static/js/main.b077034b.chunk.js",
-    "main.js.map": "/edg-studio/static/js/main.b077034b.chunk.js.map",
+    "main.js": "/edg-studio/static/js/main.edc63a70.chunk.js",
+    "main.js.map": "/edg-studio/static/js/main.edc63a70.chunk.js.map",
     "runtime-main.js": "/edg-studio/static/js/runtime-main.d55105c6.js",
     "runtime-main.js.map": "/edg-studio/static/js/runtime-main.d55105c6.js.map",
     "static/js/2.82d0c1a8.chunk.js": "/edg-studio/static/js/2.82d0c1a8.chunk.js",
     "static/js/2.82d0c1a8.chunk.js.map": "/edg-studio/static/js/2.82d0c1a8.chunk.js.map",
     "index.html": "/edg-studio/index.html",
-    "precache-manifest.0b4b8739b19d0d4a7fb04853a8c035e0.js": "/edg-studio/precache-manifest.0b4b8739b19d0d4a7fb04853a8c035e0.js",
+    "precache-manifest.8356b92036a3eb0480d2f232de52b5be.js": "/edg-studio/precache-manifest.8356b92036a3eb0480d2f232de52b5be.js",
     "service-worker.js": "/edg-studio/service-worker.js",
     "static/css/main.5bc8ef56.chunk.css.map": "/edg-studio/static/css/main.5bc8ef56.chunk.css.map",
     "static/js/2.82d0c1a8.chunk.js.LICENSE.txt": "/edg-studio/static/js/2.82d0c1a8.chunk.js.LICENSE.txt",
@@ -41,6 +41,6 @@
     "static/js/runtime-main.d55105c6.js",
     "static/js/2.82d0c1a8.chunk.js",
     "static/css/main.5bc8ef56.chunk.css",
-    "static/js/main.b077034b.chunk.js"
+    "static/js/main.edc63a70.chunk.js"
   ]
 }
