@@ -2,6 +2,13 @@ import React from 'react';
 import logo from './assets/logo.png';
 import './Home.css';
 
+import cluster1 from './assets/Cluster-1_2000.jpg'
+import cluster2 from './assets/Cluster-2_2000.jpg'
+import cluster3 from './assets/Cluster-3_2000.jpg'
+import cluster4 from './assets/Cluster-4_2000.jpg'
+import cluster5 from './assets/Cluster-5_2000.jpg'
+import cluster6 from './assets/Cluster-6_2000.jpg'
+
 const EMAIL = "elay@edgstudio.com";
 
 function sendEmail(event) {
@@ -46,11 +53,19 @@ function Home() {
       </div>
       <div className="Home-footer">
         <p>
-          I believe the only way to be truly modern in today's creative landscape is to
-          remove the limits betwen art forms, to have fluid conversations to create
-          sublime visual experiences.
+          To be modern in today’s creative landscape is to blur the lines and forgo preconceptions. <br/>
+          A lifelong string of affairs between different art forms sparks a desire for sublime visual
+experiences. <br/>
+          ART DIRECTION | BRANDING | TEXTILE DESIGN | PRODUCT DESIGN | COPYWRITING
         </p>
       </div>
+      {/* Prefetch images of clusters */}
+      <link rel="prefetch" href={cluster1} />
+      <link rel="prefetch" href={cluster2} />
+      <link rel="prefetch" href={cluster3} />
+      <link rel="prefetch" href={cluster4} />
+      <link rel="prefetch" href={cluster5} />
+      <link rel="prefetch" href={cluster6} />
     </div>
   );
 }
