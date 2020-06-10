@@ -26,21 +26,20 @@
 }
 
 .cluster-board {
+  transform: scale(0);
   animation:
     cluster-scale
     1s
     forwards
-    ease-in-out;
+    cubic-bezier(0.25,0.1,0.25,1.1); /* Go past the animation a little bit */
   animation-delay: 500ms;
-  transform: scale(0);
 }
 
-
 @keyframes cluster-scale {
-  0% {
+  from {
     transform: scale(0);
   }
-  100% {
-    transform: scale(1);
+  to {
+    transform: scale(100%);
   }
 }

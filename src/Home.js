@@ -53,9 +53,11 @@ function Home() {
       </div>
       <div className="Home-footer">
         <p>
-          To be modern in today’s creative landscape is to blur the lines and forgo preconceptions. <br/>
-          A lifelong string of affairs between different art forms sparks a desire for sublime visual
-experiences. <br/>
+          <i>
+            To be modern in today’s creative landscape is to blur the lines and forgo preconceptions. <br/>
+            A lifelong string of affairs between different art forms sparks a desire for sublime visual experiences. <br/>
+          </i>
+          <span></span>
           ART DIRECTION | BRANDING | TEXTILE DESIGN | PRODUCT DESIGN | COPYWRITING
         </p>
       </div>

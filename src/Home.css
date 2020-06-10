@@ -24,6 +24,7 @@ svg a {
     width: min(90vw, 1080px);
 
     grid-template-columns: auto 5vmin;
+    grid-template-rows: min-content;
     grid-template-areas:
       "header header"
       "board email"
@@ -44,7 +45,7 @@ svg a {
   height: 15vmin;
   font-size: 0;
   margin: 0 auto;
-  margin-top: 5vmin;
+  margin-top: 2vmin;
 }
 
 .Home-logo {
@@ -60,12 +61,24 @@ svg a {
   padding: 3vmin 0;
 }
 
+.Home-footer span {
+  display: block;
+  height: 2ex;
+  width: 100%;
+}
+
 .Home-board {
   grid-area: board;
-
-  display: flex;
-  flex-direction: row;
+  display: block;
   width: 100%;
+}
+
+.Home-board a[href] {
+  cursor: pointer;
+}
+
+.Home-board a[href] .Home-circle:hover {
+  fill-opacity: 0.75;
 }
 
 .Home-email {
@@ -92,10 +105,6 @@ svg a {
   }
 }
 
-.Home-circle:hover {
-  fill-opacity: 0.75;
-}
-
 .Home-circle {
   animation:
     Home-float-circle
@@ -111,7 +120,6 @@ svg a {
 #circle5 { animation-delay: -4s; }
 #circle6 { animation-delay: -5s; }
 #circle7 { animation-delay: -.5s; }
-
 
 @keyframes Home-float-circle {
   0% {
