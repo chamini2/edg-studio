@@ -7,6 +7,7 @@ function ClusterBase(board) {
   const history = useHistory();
   return (
     <div className="cluster">
+      {/* `board` must have a `cluster-board` as className for it's outermost element */}
       {board}
       <a className="Home-logo-header" href="/" onClick={() => history.goBack()}>
         <img src={logo} className="Home-logo" alt="logo" />

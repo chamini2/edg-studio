@@ -115,51 +115,39 @@ svg a {
 
 @keyframes Home-float-circle {
   0% {
-    transform:
-      translate(0, 0);
+    transform: translate(0, 0);
   }
   10% {
-    transform:
-      translate(-1%, -1%);
+    transform: translate(-1%, -1%);
   }
   20% {
-    transform:
-      translate(0, -.5%);
+    transform: translate(0, -.5%);
   }
   30% {
-    transform:
-      translate(-.5%, .5%);
+    transform: translate(-.5%, .5%);
   }
   40% {
-    transform:
-      translate(0, 1.5%);
+    transform: translate(0, 1.5%);
   }
   50% {
-    transform:
-      translate(1%, 1%);
+    transform: translate(1%, 1%);
   }
   60% {
-    transform:
-      translate(1.5%, 1%);
+    transform: translate(1.5%, 1%);
   }
   70% {
-    transform:
-      translate(.5%, 0);
+    transform: translate(.5%, 0);
   }
   70% {
-    transform:
-      translate(-.5%, -.5%);
+    transform: translate(-.5%, -.5%);
   }
   80% {
-    transform:
-      translate(-1%, -1.5%);
+    transform: translate(-1%, -1.5%);
   }
   90% {
-    transform:
-      translate(-1.5%, 0);
+    transform: translate(-1.5%, 0);
   }
   100% {
-    transform:
-      translate(0, 0);
+    transform: translate(0, 0);
   }
 }
