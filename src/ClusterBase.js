@@ -9,7 +9,8 @@ function ClusterBase(board) {
     <div className="cluster">
       {/* `board` must have a `cluster-board` as className for it's outermost element */}
       {board}
-      <a className="Home-logo-header" href="/" onClick={() => history.goBack()}>
+      {/* eslint-disable-next-line */}
+      <a className="Home-logo-header" onClick={() => history.goBack()}>
         <img src={logo} className="Home-logo" alt="logo" />
       </a>
     </div>

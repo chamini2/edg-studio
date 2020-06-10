@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import logo from './assets/logo.png';
 import './Home.css';
 
@@ -19,28 +20,28 @@ function sendEmail(event) {
 function Home() {
   return (
     <div className="Home">
-      <a className="Home-logo-header" href="/">
+      <Link to="/" className="Home-logo-header">
         <img src={logo} className="Home-logo" alt="logo" />
-      </a>
+      </Link>
       <svg className="Home-board" viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
-        <a href="/1">
+        <Link to="/1">
           <circle id="circle1" fill="#2622c1" className="Home-circle" cx="20" cy="20" r="4" />
-        </a>
-        <a href="/2">
+        </Link>
+        <Link to="/2">
           <circle id="circle2" fill="#f2e9a3" className="Home-circle" cx="80" cy="40" r="12" />
-        </a>
-        <a href="/3">
+        </Link>
+        <Link to="/3">
           <circle id="circle3" fill="#415e3f" className="Home-circle" cx="100" cy="50" r="7" />
-        </a>
-        <a href="/4">
+        </Link>
+        <Link to="/4">
           <circle id="circle4" fill="#b7663b" className="Home-circle" cx="50" cy="60" r="8" />
-        </a>
-        <a href="/5">
+        </Link>
+        <Link to="/5">
           <circle id="circle5" fill="#d3bb95" className="Home-circle" cx="120" cy="80" r="10" />
-        </a>
-        <a href="/6">
+        </Link>
+        <Link to="/6">
           <circle id="circle6" fill="#b1bca9" className="Home-circle" cx="150" cy="45" r="4" />
-        </a>
+        </Link>
         {/* eslint-disable-next-line */}
         <a>
           <circle id="circle7" fill="#d3bdba" className="Home-circle" cx="175" cy="30" r="6" />
