@@ -1,21 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.f16bd970.chunk.css",
-    "main.js": "/static/js/main.97d1b183.chunk.js",
-    "main.js.map": "/static/js/main.97d1b183.chunk.js.map",
+    "main.css": "/static/css/main.02a96e49.chunk.css",
+    "main.js": "/static/js/main.8bf794be.chunk.js",
+    "main.js.map": "/static/js/main.8bf794be.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.bbd28c88.js",
     "runtime-main.js.map": "/static/js/runtime-main.bbd28c88.js.map",
-    "static/js/2.cfb93801.chunk.js": "/static/js/2.cfb93801.chunk.js",
-    "static/js/2.cfb93801.chunk.js.map": "/static/js/2.cfb93801.chunk.js.map",
+    "static/js/2.49249af7.chunk.js": "/static/js/2.49249af7.chunk.js",
+    "static/js/2.49249af7.chunk.js.map": "/static/js/2.49249af7.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.fae35db71faefdaaa31271c20489dc9a.js": "/precache-manifest.fae35db71faefdaaa31271c20489dc9a.js",
+    "precache-manifest.88ccbedd81b346fc63fee3fb1379c615.js": "/precache-manifest.88ccbedd81b346fc63fee3fb1379c615.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.f16bd970.chunk.css.map": "/static/css/main.f16bd970.chunk.css.map",
-    "static/js/2.cfb93801.chunk.js.LICENSE.txt": "/static/js/2.cfb93801.chunk.js.LICENSE.txt",
+    "static/css/main.02a96e49.chunk.css.map": "/static/css/main.02a96e49.chunk.css.map",
+    "static/js/2.49249af7.chunk.js.LICENSE.txt": "/static/js/2.49249af7.chunk.js.LICENSE.txt",
     "static/media/Cluster-1_2000.jpg": "/static/media/Cluster-1_2000.6bcf138c.jpg",
     "static/media/Cluster-2_2000.jpg": "/static/media/Cluster-2_2000.04e827f5.jpg",
     "static/media/Cluster-3_2000.jpg": "/static/media/Cluster-3_2000.cc478692.jpg",
-    "static/media/Cluster-3_video.mp4": "/static/media/Cluster-3_video.b11af815.mp4",
     "static/media/Cluster-4_2000.jpg": "/static/media/Cluster-4_2000.464b8934.jpg",
     "static/media/Cluster-5_2000.jpg": "/static/media/Cluster-5_2000.7a95d7d6.jpg",
     "static/media/Cluster-6_2000.jpg": "/static/media/Cluster-6_2000.e0630a57.jpg",
@@ -25,8 +24,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.bbd28c88.js",
-    "static/js/2.cfb93801.chunk.js",
-    "static/css/main.f16bd970.chunk.css",
-    "static/js/main.97d1b183.chunk.js"
+    "static/js/2.49249af7.chunk.js",
+    "static/css/main.02a96e49.chunk.css",
+    "static/js/main.8bf794be.chunk.js"
   ]
 }
