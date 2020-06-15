@@ -24,22 +24,22 @@ function Home() {
         <img src={logo} className="Home-logo" alt="logo" />
       </Link>
       <svg className="Home-board" viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
-        <Link to="/1">
+        <Link to={{pathname: "/1", state: {internal: true}}}>
           <circle id="circle1" fill="#2622c1" className="Home-circle" cx="20" cy="20" r="4" />
         </Link>
-        <Link to="/2">
+        <Link to={{pathname: "/2", state: {internal: true}}}>
           <circle id="circle2" fill="#f2e9a3" className="Home-circle" cx="80" cy="40" r="12" />
         </Link>
-        <Link to="/3">
+        <Link to={{pathname: "/3", state: {internal: true}}}>
           <circle id="circle3" fill="#415e3f" className="Home-circle" cx="100" cy="50" r="7" />
         </Link>
-        <Link to="/4">
+        <Link to={{pathname: "/4", state: {internal: true}}}>
           <circle id="circle4" fill="#b7663b" className="Home-circle" cx="50" cy="60" r="8" />
         </Link>
-        <Link to="/5">
+        <Link to={{pathname: "/5", state: {internal: true}}}>
           <circle id="circle5" fill="#d3bb95" className="Home-circle" cx="120" cy="80" r="10" />
         </Link>
-        <Link to="/6">
+        <Link to={{pathname: "/6", state: {internal: true}}}>
           <circle id="circle6" fill="#b1bca9" className="Home-circle" cx="150" cy="45" r="4" />
         </Link>
         {/* eslint-disable-next-line */}

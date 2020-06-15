@@ -97,6 +97,7 @@ svg a {
     width: 3vmin;
     padding-top: 20vmin;
     overflow: hidden;
+    display: block;
   }
 
   .Home-email a {
