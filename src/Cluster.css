@@ -26,7 +26,7 @@
   margin: auto;
 }
 
-.cluster-board {
+.cluster-board, .cluster-video {
   transform: scale(0);
   animation:
     cluster-scale
